@@ -1,0 +1,41 @@
+#footer {
+    padding: 55px 0;
+    .inf {
+        margin-top: 60px;
+        .font-2 {
+            margin: 0 0 30px 0;
+        }
+    }
+    .footer-brand {
+        min-height: 200px;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    .overflow-container {
+        padding-top: 50px;
+        overflow: hidden;
+        h2 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            line-height: normal;
+            top: 7px;
+        }
+    }
+    .br-1 {
+        max-width: 167px;
+    }
+    .br-2 {
+        max-width: 265px;
+    }
+    .br-3 {
+        max-width: 185px;
+    }
+    .br-4 {
+        max-width: 234px;
+    }
+}

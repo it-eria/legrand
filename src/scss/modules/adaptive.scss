@@ -1,0 +1,238 @@
+// 0 - 320px
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    #header {
+        padding: 0;
+        .container {
+            width: 90%;
+        }
+    }
+    .main-nav {
+        padding: 20px 0;
+        ul {
+            display: none;
+            li {
+                display: block;
+                margin: 0 0 10px 0;
+            }
+        }
+        &.visible {
+            ul {
+                display: block;
+            }
+        }
+    }
+    .menu-btn {
+        display: block;
+    }
+    .icons-list {
+        li {
+            margin: 10px;
+            a img {
+                width: 40px;
+            }
+        }
+    }
+    .font-2 {
+        font-size: 30px;
+    }
+    .socials-nav {
+        li {
+            margin: 15px;
+            a img {
+                width: 40px;
+            }
+        }
+    }
+    .artists, .artists-team {
+        .artist-item {
+            width: calc(100% / 2 - 5px);
+        }
+    }
+    .popup {
+        &-wraper {
+            width: 90%;
+        }
+        input, textarea {
+            position: relative;
+        }
+    }
+    .reviews {
+        .client-item {
+            img {
+                &.cl-1, &.cl-2, &.cl-3, &.cl-4,
+                &.cl-5, &.cl-6, &.cl-7, &.cl-8,
+                &.cl-9, &.cl-10, &.cl-11, &.cl-12,
+                &.cl-13, &.cl-14, &.cl-15, &.cl-16,
+                &.cl-17 {
+                    max-width: 90%;
+                }
+                &.cl-12 {
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// 321 - 480px
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    #header {
+        padding: 0;
+        .container {
+            width: 90%;
+        }
+    }
+    .main-nav {
+        padding: 20px 0;
+        ul {
+            display: none;
+            li {
+                display: block;
+                margin: 0 0 10px 0;
+            }
+        }
+        &.visible {
+            ul {
+                display: block;
+            }
+        }
+    }
+    .menu-btn {
+        display: block;
+    }
+    .icons-list {
+        li {
+            margin: 10px;
+            img {
+                width: 40px;
+            }
+        }
+    }
+    .font-2 {
+        font-size: 30px;
+    }
+    .socials-nav {
+        li {
+            margin: 10px;
+            a img {
+                width: 40px;
+            }
+        }
+    }
+    .artists, .artists-team {
+        .artist-item {
+            width: calc(100% / 2 - 5px);
+        }
+    }
+    .popup {
+        &-wraper {
+            width: 90%;
+        }
+        input, textarea {
+            position: relative;
+        }
+    }
+    .reviews {
+        .client-item {
+            img {
+                &.cl-1, &.cl-2, &.cl-3, &.cl-4,
+                &.cl-5, &.cl-6, &.cl-7, 
+                &.cl-9, &.cl-10, &.cl-11, &.cl-13, 
+                &.cl-14, &.cl-15, &.cl-16, &.cl-17 {
+                    max-width: 90%;
+                }
+                &.cl-8 {
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// 481 - 768px
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #header {
+        padding: 0;
+        .container {
+            width: 90%;
+        }
+    }
+    .main-nav {
+        padding: 20px 0;
+        ul {
+            display: none;
+            li {
+                display: block;
+                margin: 0 0 10px 0;
+            }
+        }
+        &.visible {
+            ul {
+                display: block;
+            }
+        }
+    }
+    .menu-btn {
+        display: block;
+    }
+    .icons-list {
+        li {
+            margin: 15px;
+        }
+    }
+    .socials-nav {
+        li {
+            margin: 15px;
+        }
+    }
+    .artists, .artists-team {
+        .artist-item {
+            width: calc(100% / 3 - 5px);
+        }
+    }
+    .popup {
+        &-wraper {
+            width: 90%;
+        }
+        input, textarea {
+            position: relative;
+        }
+    }
+}
+
+// 769 - 992px
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #header {
+        .container {
+            width: 90%;
+        }
+    }
+    .artists, .artists-team {
+        .artist-item {
+            width: calc(100% / 4 - 5px);
+        }
+    }
+    .reviews {
+        .client-item {
+            img {
+                max-width: 60%;
+            }
+        }
+    }  
+}
+
+// 993 - 1200px
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+// 1201 - 1366px
+@media screen and (min-width: 1201px) and (max-width: 1366px) {
+    
+}
+
+// 1367 - more
+@media screen and (min-width: 1367px) {
+    
+}
+
