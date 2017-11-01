@@ -63,6 +63,9 @@
 
 .text-block {
     padding: 120px 0 0 0;
+    &_no-pt {
+        padding-top: 0;
+    }
 }
 
 .services {
@@ -71,6 +74,9 @@
     background-repeat: no-repeat;
     background-position: center 155px;
     background-size: 70% auto;
+    &_no-bg {
+        background-image: none;
+    }
     .service-item {
         min-height: 162px;
         margin-bottom: 30px;
@@ -217,6 +223,19 @@
             }
             &:hover {
                 opacity: 1;
+            }
+        }
+    }
+}
+
+.artists {
+    &_about {
+        .artist-item {
+            background-position: center top;
+            &__hover {
+                span {
+                    width: auto;
+                }
             }
         }
     }
@@ -516,5 +535,30 @@
         right: 0;
         width: 100%;
         max-width: 390px;
+    }
+}
+
+.talent, .mission, .text-block, 
+.why-choose-us, .contacts-about {
+    .content-1 {
+        font-size: 31px;
+        margin-top: 50px;
+        a {
+            color: #2b2b2b;
+        }
+    }
+    padding-bottom: 100px;
+}
+
+.why-choose-us {
+    padding-bottom: 0;
+}
+.contacts-about {
+    padding-top: 100px;
+}
+
+.text-block {
+    .content-1 {
+        margin-top: 0;
     }
 }

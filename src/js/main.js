@@ -46,6 +46,27 @@ $(function() {
                 },
                 3000
             );
+            $('#animNumberAbout-1').animateNumber(
+                {
+                  number: 17,
+                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                },
+                1000
+            );
+            $('#animNumberAbout-2').animateNumber(
+                {
+                  number: 1632,
+                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                },
+                3000
+            );
+            $('#animNumberAbout-3').animateNumber(
+                {
+                  number: 150,
+                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                },
+                2000
+            );
         }
     });
 

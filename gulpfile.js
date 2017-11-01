@@ -55,7 +55,9 @@ if(isLess) {
 var serverConfig = {
     server: {
         baseDir: 'build/',
-        index: 'index.html'
+        serveStaticOptions: {
+            extensions: ["html"]
+        }
     },
     notify: false
 };
