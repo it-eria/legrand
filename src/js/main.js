@@ -53,12 +53,14 @@ $(function() {
         headerHeight = $('#header').outerHeight();
     });
 
-    $('.main-menu li a').on('click', function(e) {
+    $('.main-menu li a, #services .services-block a').on('click', function(e) {
         e.preventDefault();
         var currentId = $(this).attr('href');
         var offset = 0;
         if(currentId == "#services") {
             offset = 300
+        } else if(currentId == "#music" || currentId == "#culinary" || currentId == "#style" || currentId == "#art") {
+            offset = 90;
         }
         $('html, body').animate({scrollTop: $(currentId).offset().top - offset}, 3000);
     });
@@ -72,5 +74,5 @@ $(function() {
         $('.popup').slideToggle(300);
     });
 
-    $('#cellphone').mask("+9 (999) 999-9999", {placeholder: "+_ (___) ___-____"});
+    $('#cellphone').mask("+9?9 (999) 999-9999");
 });

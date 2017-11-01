@@ -72,6 +72,21 @@
             }
         }
     }
+    .services {
+        .services-block {
+            padding-top: 0;
+            ul {
+                li {
+                    img {
+                        height: 100px;
+                    }
+                    p.desc {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 321 - 480px
@@ -147,6 +162,21 @@
             }
         }
     }
+    .services {
+        .services-block {
+            padding-top: 0;
+            ul {
+                li {
+                    img {
+                        height: 100px;
+                    }
+                    p.desc {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 481 - 768px
@@ -198,6 +228,23 @@
             position: relative;
         }
     }
+    .services {
+        .services-block {
+            padding-top: 0;
+            ul {
+                li {
+                    width: 49%;
+                    img {
+                        height: 100px;
+                    }
+                    p.desc {
+                        margin-top: 30px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 769 - 992px
@@ -218,17 +265,53 @@
                 max-width: 60%;
             }
         }
-    }  
+    }
+    .services {
+        .services-block {
+            padding-top: 0;
+            ul {
+                li {
+                    width: 49%;
+                    img {
+                        height: 100px;
+                    }
+                    p.desc {
+                        margin-top: 30px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    } 
 }
 
 // 993 - 1200px
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .services {
+        background-position-y: 50px;
+        .services-block {
+            padding-top: 0;
+            ul {
+                li {
+                    img {
+                        height: 100px;
+                    }
+                    p.desc {
+                        margin-top: 30px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
 // 1201 - 1366px
 @media screen and (min-width: 1201px) and (max-width: 1366px) {
-    
+    .services {
+        background-position-y: 220px; 
+    }
 }
 
 // 1367 - more

@@ -67,6 +67,10 @@
 
 .services {
     padding: 80px 0 0 0;
+    background-image: url(../img/service-bg.png);
+    background-repeat: no-repeat;
+    background-position: center 155px;
+    background-size: 70% auto;
     .service-item {
         min-height: 162px;
         margin-bottom: 30px;
@@ -125,6 +129,48 @@
     }
     .standart-btn {
         margin-bottom: 50px;
+    }
+    .services-block {
+        padding: 150px 0 100px 0;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            li {
+                display: block;
+                width: auto;
+                height: auto;
+                margin-bottom: 30px;
+                img {
+                    display: block;
+                    height: 180px;
+                    margin: 0 auto 30px auto;
+                }
+                a {
+                    color: #2b2b2b !important;
+                }
+                p {
+                    font-family: $thin;
+                    font-size: 21px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    letter-spacing: 8px;
+                    &.desc {
+                        font-family: $hairline;
+                        letter-spacing: 1px;
+                        font-size: 31px;
+                        font-weight: 700;
+                        text-transform: none;
+                        margin: 100px 0 0 0;
+                    }
+                }
+            }
+        }
     }
 }
 
