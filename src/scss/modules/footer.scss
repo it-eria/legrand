@@ -3,7 +3,11 @@
     .inf {
         margin-top: 60px;
         .font-2 {
+            display: block;
             margin: 0 0 30px 0;
+            &:hover {
+                color: #2b2b2b;
+            }
         }
     }
     .footer-brand {
