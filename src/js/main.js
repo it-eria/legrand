@@ -86,7 +86,7 @@ $(function() {
         $('html, body').animate({scrollTop: $(currentId).offset().top - offset}, 3000);
     });
 
-    $('#team .artist-item__hover').on('click', function(e) {
+    $('.artist-item__hover').on('click', function(e) {
         e.preventDefault();
     });
 
