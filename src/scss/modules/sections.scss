@@ -113,6 +113,9 @@
             left: -3px;
             top: 50%;
             transform: translate(0, -50%);
+            text-decoration: none !important;
+            color: #2b2b2b !important;
+            cursor: default;
             &:before {
                 display: none;
             }
@@ -137,7 +140,7 @@
         margin-bottom: 50px;
     }
     .services-block {
-        padding: 50px 0 100px 0;
+        padding: 50px 0;
         ul {
             list-style: none;
             margin: 0;
@@ -157,6 +160,7 @@
                 }
                 a {
                     color: #2b2b2b !important;
+                    text-decoration: none !important;
                 }
                 p {
                     font-family: $thin;
@@ -167,12 +171,7 @@
                     padding: 0;
                     letter-spacing: 8px;
                     &.desc {
-                        // white-space: nowrap;
-                        // font-family: $hairline;
-                        // letter-spacing: 1px;
-                        // font-size: 31px;
-                        // font-weight: 700;
-                        // text-transform: none;
+                        font-size: 18px;
                         margin: 50px 0 0 0;
                     }
                 }
@@ -230,6 +229,7 @@
 }
 
 .artists {
+    padding-top: 50px;
     &_about {
         .artist-item {
             background-position: center top;
@@ -245,7 +245,7 @@
 .artists-team {
     .overflow-container {
         h2 {
-            top: 7px;
+            top: 8px;
         }
     }
     .artist-item {
@@ -535,7 +535,7 @@
         font-weight: bold;
     }
     textarea {
-        height: 20px;
+        height: 33px;
         border: none;
         border-bottom: 1px solid #5d5d5d;
         font-family: $hairline;
@@ -574,4 +574,9 @@
     .content-1 {
         margin-top: 0;
     }
+}
+
+
+.mission {
+    padding: 100px 0;
 }

@@ -24,6 +24,14 @@ body, html {
     }
 }
 
+#art {
+    .artist-title {
+        h3 {
+            top: 6px;
+        }
+    }
+} 
+
 .content-1 {
     span.text-right {
         display: block;
@@ -43,19 +51,19 @@ body, html {
     }
     &_about {
         .title-4 {
-            &:after {
-                content: '';
-                display: block;
-                width: 120%;
-                height: 30px;
-                position: absolute;
-                left: -10%;
-                bottom: 0;
-                background: linear-gradient(to top,rgba(0,0,0,.1) 20%,rgba(255,255,255,.1) 70%);
-                border-top-left-radius: 20px;
-                border-top-right-radius: 20px;
-                overflow: hidden;
-            }
+            // &:after {
+            //     content: '';
+            //     display: block;
+            //     width: 120%;
+            //     height: 30px;
+            //     position: absolute;
+            //     left: -10%;
+            //     bottom: 0;
+            //     background: linear-gradient(to top,rgba(0,0,0,.1) 20%,rgba(255,255,255,.1) 70%);
+            //     border-top-left-radius: 20px;
+            //     border-top-right-radius: 20px;
+            //     overflow: hidden;
+            // }
         }
     }
 }
