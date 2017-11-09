@@ -32,8 +32,27 @@
             }
         }
     }
+    .font-1, .title-1 {
+        font-size: 18px;
+    }
     .font-2 {
-        font-size: 30px;
+        font-size: 17px;
+    }
+    .font-5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .content-1 {
+        font-size: 14px;
+    }
+    .title-4 {
+        margin-top: 20px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        &__bigger {
+            font-size: 30px;
+        }
     }
     .socials-nav {
         li {
@@ -45,7 +64,17 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 2 - 5px);
+            width: calc(100% / 4 - 5px);
+            margin-right: 0;
+            height: 75px;
+            &__hover {
+                span.font-1, span.content-1 {
+                    font-size: 10px;
+                }
+            }
+        }
+        .wide-img {
+            text-align: center;
         }
     }
     .popup {
@@ -57,7 +86,10 @@
         }
     }
     .reviews {
+        padding-top: 20px;
+        padding-bottom: 20px;
         .client-item {
+            min-height: 80px;
             img {
                 &.cl-1, &.cl-2, &.cl-3, &.cl-4,
                 &.cl-5, &.cl-6, &.cl-7, &.cl-8,
@@ -71,22 +103,109 @@
                 }
             }
         }
+        .overflow-container {
+            margin-bottom: 20px;
+        }
+        .team-item {
+            margin-bottom: 20px;
+            .avatar-block {
+                width: 120px;
+                height: 120px;
+                background-size: cover;
+            }
+            img {
+                max-width: 20%;
+                margin-top: -25px;
+            }
+        }
+        .review {
+            &:before {
+                font-size: 100px;
+                line-height: 18px;
+                left: -35px;
+            }
+        }
     }
     .services {
+        padding-top: 45px;
         .services-block {
             padding-top: 0;
+            padding-bottom: 0;
             ul {
                 li {
-                    width: 100%;
+                    width: calc(100% / 4);
                     img {
-                        height: 100px;
+                        height: 65px;
+                    }
+                    p {
+                        font-size: 14px;
+                        letter-spacing: 2px;
                     }
                     p.desc {
-                        font-size: 16px;
-                        margin-top: 30px;
+                        font-size: 8px;
+                        margin-top: 15px;
+                        letter-spacing: 1px;
                     }
                 }
             }
+        }
+        .standart-btn {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+    }
+    .artist-title {
+        font-size: 18px;
+        margin-top: 10px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .artists {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .standart-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .artists-team {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .review {
+            &:before {
+                display: none;
+            }
+        }
+        .artist-item {
+            width: calc(100% / 2 - 5px);
+            height: 150px;
+        }
+    }
+    #footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .inf {
+            margin-top: 20px;
+            .font-2 {
+                margin-bottom: 10px;
+            }
+            .title-1 {
+                margin-bottom: 10px;
+            }
+        }
+        .overflow-container {
+            padding-top: 20px;
+        }
+        .br-1, .br-2, .br-3, .br-4 {
+            max-width: 100%;
+        }
+        .footer-brand {
+            min-height: 80px;
         }
     }
 }
@@ -120,17 +239,36 @@
     .icons-list {
         li {
             margin: 10px;
-            img {
+            a img {
                 width: 40px;
             }
         }
     }
+    .font-1, .title-1 {
+        font-size: 18px;
+    }
     .font-2 {
-        font-size: 30px;
+        font-size: 17px;
+    }
+    .font-5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .content-1 {
+        font-size: 14px;
+    }
+    .title-4 {
+        margin-top: 20px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        &__bigger {
+            font-size: 30px;
+        }
     }
     .socials-nav {
         li {
-            margin: 10px;
+            margin: 15px;
             a img {
                 width: 40px;
             }
@@ -138,7 +276,17 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 2 - 5px);
+            width: calc(100% / 4 - 5px);
+            margin-right: 0;
+            height: 104px;
+            &__hover {
+                span.font-1, span.content-1 {
+                    font-size: 10px;
+                }
+            }
+        }
+        .wide-img {
+            text-align: center;
         }
     }
     .popup {
@@ -150,35 +298,126 @@
         }
     }
     .reviews {
+        padding-top: 20px;
+        padding-bottom: 20px;
         .client-item {
+            min-height: 100px;
             img {
                 &.cl-1, &.cl-2, &.cl-3, &.cl-4,
-                &.cl-5, &.cl-6, &.cl-7, 
-                &.cl-9, &.cl-10, &.cl-11, &.cl-13, 
-                &.cl-14, &.cl-15, &.cl-16, &.cl-17 {
+                &.cl-5, &.cl-6, &.cl-7, &.cl-8,
+                &.cl-9, &.cl-10, &.cl-11, &.cl-12,
+                &.cl-13, &.cl-14, &.cl-15, &.cl-16,
+                &.cl-17 {
                     max-width: 90%;
                 }
-                &.cl-8 {
+                &.cl-12 {
                     max-width: 50%;
                 }
             }
         }
+        .overflow-container {
+            margin-bottom: 20px;
+        }
+        .team-item {
+            margin-bottom: 20px;
+            .avatar-block {
+                width: 120px;
+                height: 120px;
+                background-size: cover;
+            }
+            img {
+                max-width: 20%;
+                margin-top: -25px;
+            }
+        }
+        .review {
+            &:before {
+                font-size: 100px;
+                line-height: 18px;
+                left: -35px;
+            }
+        }
     }
     .services {
+        padding-top: 45px;
         .services-block {
             padding-top: 0;
+            padding-bottom: 0;
             ul {
                 li {
-                    width: 100%;
+                    width: calc(100% / 4);
                     img {
-                        height: 100px;
+                        height: 65px;
+                    }
+                    p {
+                        font-size: 14px;
+                        letter-spacing: 2px;
                     }
                     p.desc {
-                        font-size: 16px;
-                        margin-top: 30px;
+                        font-size: 8px;
+                        margin-top: 15px;
+                        letter-spacing: 1px;
                     }
                 }
             }
+        }
+        .standart-btn {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+    }
+    .artist-title {
+        font-size: 18px;
+        margin-top: 10px;
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .artists {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .standart-btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .artists-team {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .review {
+            &:before {
+                display: none;
+            }
+        }
+        .artist-item {
+            width: calc(100% / 2 - 5px);
+            height: 245px;
+        }
+    }
+    #footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .inf {
+            margin-top: 20px;
+            .font-2 {
+                margin-bottom: 10px;
+            }
+            .title-1 {
+                margin-bottom: 10px;
+            }
+        }
+        .overflow-container {
+            padding-top: 20px;
+        }
+        .br-1, .br-2, .br-3, .br-4 {
+            max-width: 100%;
+        }
+        .footer-brand {
+            min-height: 80px;
         }
     }
 }
@@ -211,17 +450,27 @@
     }
     .icons-list {
         li {
-            margin: 15px;
+            margin: 10px;
+            a img {
+                width: 40px;
+            }
         }
     }
     .socials-nav {
         li {
             margin: 15px;
+            a img {
+                width: 40px;
+            }
         }
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 3 - 5px);
+            width: calc(100% / 4 - 5px);
+            margin-right: 0;
+        }
+        .wide-img {
+            text-align: center;
         }
     }
     .popup {
@@ -232,21 +481,108 @@
             position: relative;
         }
     }
+    .reviews {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .client-item {
+            min-height: 100px;
+            img {
+                &.cl-1, &.cl-2, &.cl-3, &.cl-4,
+                &.cl-5, &.cl-6, &.cl-7, &.cl-8,
+                &.cl-9, &.cl-10, &.cl-11, &.cl-12,
+                &.cl-13, &.cl-14, &.cl-15, &.cl-16,
+                &.cl-17 {
+                    max-width: 90%;
+                }
+                &.cl-12 {
+                    max-width: 50%;
+                }
+            }
+        }
+        .overflow-container {
+            margin-bottom: 20px;
+        }
+        .team-item {
+            margin-bottom: 20px;
+            img {
+                max-width: 20%;
+                margin-top: -25px;
+            }
+        }
+        .review {
+            &:before {
+                font-size: 100px;
+                line-height: 18px;
+                left: -35px;
+            }
+        }
+    }
     .services {
+        padding-top: 45px;
         .services-block {
             padding-top: 0;
+            padding-bottom: 0;
             ul {
                 li {
-                    width: 49%;
+                    width: calc(100% / 4);
                     img {
                         height: 100px;
                     }
+                    p {
+                        letter-spacing: 4px;
+                    }
                     p.desc {
-                        margin-top: 30px;
                         font-size: 16px;
+                        letter-spacing: 1px;
+                        margin-top: 15px;
                     }
                 }
             }
+        }
+        .standart-btn {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            padding: 10px;
+        }
+    }
+    .artists {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .artists-team {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .review {
+            &:before {
+                display: none;
+            }
+        }
+        .artist-item {
+            width: calc(100% / 4 - 5px);
+            height: 245px;
+        }
+    }
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .inf {
+            margin-top: 20px;
+            .font-2 {
+                margin-bottom: 10px;
+            }
+            .title-1 {
+                margin-bottom: 10px;
+            }
+        }
+        .overflow-container {
+            padding-top: 20px;
+        }
+        .br-1, .br-2, .br-3, .br-4 {
+            max-width: 100%;
+        }
+        .footer-brand {
+            min-height: 80px;
         }
     }
 }
@@ -261,6 +597,10 @@
     .artists, .artists-team {
         .artist-item {
             width: calc(100% / 4 - 5px);
+            margin-right: 0;
+        }
+        .wide-img {
+            text-align: center;
         }
     }
     .reviews {
