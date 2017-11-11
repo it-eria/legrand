@@ -54,6 +54,11 @@
             font-size: 30px;
         }
     }
+    .overflow-container {
+        .title-4 {
+            top: 6px;
+        }
+    }
     .socials-nav {
         li {
             margin: 15px;
@@ -64,7 +69,7 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 4 - 5px);
+            width: calc(100% / 5 - 5px);
             margin-right: 0;
             height: 75px;
             &__hover {
@@ -105,6 +110,9 @@
         }
         .overflow-container {
             margin-bottom: 20px;
+            .title-4 {
+                top: 6px;
+            }
         }
         .team-item {
             margin-bottom: 20px;
@@ -114,8 +122,12 @@
                 background-size: cover;
             }
             img {
-                max-width: 20%;
-                margin-top: -25px;
+                max-width: 40%;
+                margin-top: -23px;
+            }
+            .about-block {
+                margin-bottom: 0;
+                height: 125px;
             }
         }
         .review {
@@ -128,6 +140,8 @@
     }
     .services {
         padding-top: 45px;
+        background-size: 100% auto;
+        background-position: center 40px;
         .services-block {
             padding-top: 0;
             padding-bottom: 0;
@@ -160,12 +174,18 @@
         font-size: 18px;
         margin-top: 10px;
         h3 {
+            top: 3px;
             font-size: 16px;
         }
     }
     .artists {
         padding-top: 20px;
         padding-bottom: 20px;
+        .overflow-container {
+            h2 {
+                top: 5px;
+            }
+        }
     }
     .standart-btn {
         margin-top: 10px;
@@ -185,6 +205,11 @@
             width: calc(100% / 2 - 5px);
             height: 150px;
         }
+        .overflow-container {
+            h2 {
+                top: 6px;
+            }
+        }
     }
     #footer {
         padding-top: 20px;
@@ -200,6 +225,9 @@
         }
         .overflow-container {
             padding-top: 20px;
+            h2 {
+                top: 6px;
+            }
         }
         .br-1, .br-2, .br-3, .br-4 {
             max-width: 100%;
@@ -207,6 +235,16 @@
         .footer-brand {
             min-height: 80px;
         }
+    }
+    #art .artist-title h3 {
+        top: 3px;
+    }
+    section, .mission, .contacts-about {
+        padding: 20px 0;
+    }
+    .contacts-about .content-1, .mission .content-1, .talent .content-1, .text-block .content-1, .why-choose-us .content-1 {
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
 
@@ -266,6 +304,11 @@
             font-size: 30px;
         }
     }
+    .overflow-container {
+        .title-4 {
+            top: 6px;
+        }
+    }
     .socials-nav {
         li {
             margin: 15px;
@@ -276,7 +319,7 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 4 - 5px);
+            width: calc(100% / 5 - 5px);
             margin-right: 0;
             height: 104px;
             &__hover {
@@ -317,6 +360,9 @@
         }
         .overflow-container {
             margin-bottom: 20px;
+            .title-4 {
+                top: 6px;
+            }
         }
         .team-item {
             margin-bottom: 20px;
@@ -326,8 +372,12 @@
                 background-size: cover;
             }
             img {
-                max-width: 20%;
-                margin-top: -25px;
+                max-width: 40%;
+                margin-top: -23px;
+            }
+            .about-block {
+                margin-bottom: 0;
+                height: 125px;
             }
         }
         .review {
@@ -340,6 +390,9 @@
     }
     .services {
         padding-top: 45px;
+        padding-top: 45px;
+        background-size: 100% auto;
+        background-position: center 40px;
         .services-block {
             padding-top: 0;
             padding-bottom: 0;
@@ -373,11 +426,17 @@
         margin-top: 10px;
         h3 {
             font-size: 16px;
+            top: 3px;
         }
     }
     .artists {
         padding-top: 20px;
         padding-bottom: 20px;
+        .overflow-container {
+            h2 {
+                top: 5px;
+            }
+        }
     }
     .standart-btn {
         margin-top: 10px;
@@ -397,6 +456,11 @@
             width: calc(100% / 2 - 5px);
             height: 245px;
         }
+        .overflow-container {
+            h2 {
+                top: 6px;
+            }
+        }
     }
     #footer {
         padding-top: 20px;
@@ -412,6 +476,9 @@
         }
         .overflow-container {
             padding-top: 20px;
+            h2 {
+                top: 6px;
+            }
         }
         .br-1, .br-2, .br-3, .br-4 {
             max-width: 100%;
@@ -419,6 +486,16 @@
         .footer-brand {
             min-height: 80px;
         }
+    }
+    #art .artist-title h3 {
+        top: 3px;
+    }
+    section, .mission, .contacts-about {
+        padding: 20px 0;
+    }
+    .contacts-about .content-1, .mission .content-1, .talent .content-1, .text-block .content-1, .why-choose-us .content-1 {
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
 
@@ -466,7 +543,7 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 4 - 5px);
+            width: calc(100% / 5 - 5px);
             margin-right: 0;
         }
         .wide-img {
@@ -504,9 +581,18 @@
         }
         .team-item {
             margin-bottom: 20px;
+            .avatar-block {
+                width: 180px;
+                height: 180px;
+                background-size: cover;
+            }
             img {
-                max-width: 20%;
-                margin-top: -25px;
+                max-width: 40%;
+                margin-top: -23px;
+            }
+            .about-block {
+                margin-bottom: 0;
+                height: 180px;
             }
         }
         .review {
@@ -596,7 +682,7 @@
     }
     .artists, .artists-team {
         .artist-item {
-            width: calc(100% / 4 - 5px);
+            width: calc(100% / 5 - 5px);
             margin-right: 0;
         }
         .wide-img {
@@ -615,18 +701,24 @@
             padding-top: 0;
             ul {
                 li {
-                    width: 49%;
+                    width: calc(100% / 4);
                     img {
                         height: 100px;
                     }
                     p.desc {
                         margin-top: 30px;
                         font-size: 25px;
+                        letter-spacing: 1px;
                     }
                 }
             }
         }
     } 
+    .artists-team {
+        .artist-item {
+            width: calc(100% / 4 - 5px);
+        }
+    }
 }
 
 // 993 - 1200px
