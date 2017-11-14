@@ -70,12 +70,33 @@ $(function() {
         }
     });
 
+    if($(this).width() < 993 && $(this).width() > 319) {
+        $('.artists .artist-item').css({
+            "height": $('.container').width() / 5 - 5
+        });
+    } else {
+        $('.artists .artist-item').css({
+            "height": ""
+        });
+    }
+
     $(window).on('resize', function() {
         headerHeight = $('#header').outerHeight();
+        if($(this).width() < 993 && $(this).width() > 319) {
+            $('.artists .artist-item').css({
+                "height": $('.container').width() / 5 - 5
+            });
+        } else {
+            $('.artists .artist-item').css({
+                "height": ""
+            });
+        }
     });
 
     $('.main-menu li a, #services .services-block a').on('click', function(e) {
-        e.preventDefault();
+        if(!$(this).find('img').length > 0) {
+            e.preventDefault();
+        }
         var currentId = $(this).attr('href');
         var offset = 0;
         if(currentId == "#services") {
@@ -83,7 +104,7 @@ $(function() {
         } else if(currentId == "#music" || currentId == "#culinary" || currentId == "#style" || currentId == "#art") {
             offset = 90;
         }
-        $('html, body').animate({scrollTop: $(currentId).offset().top - offset}, 3000);
+        $('html, body').animate({scrollTop: $(currentId).offset().top - offset}, 1);
     });
 
     $('.artist-item__hover, .services .service-item .link-2').on('click', function(e) {
