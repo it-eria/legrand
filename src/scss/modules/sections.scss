@@ -1,9 +1,13 @@
 .bg-wraper {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: 50% 100%;
     background-size: auto;
     background-color: #ffffff;
+    animation-name: bg-anim-1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 }
 
 .main-banner {
@@ -74,6 +78,10 @@
     background-repeat: no-repeat;
     background-position: center 55px;
     background-size: 70% auto;
+    animation-name: bg-anim-2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
     &_no-bg {
         background-image: none;
     }
@@ -582,9 +590,41 @@
 }
 
 .mission {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
-#team > div > div:nth-child(3) > div:nth-child(4) > a {
-    opacity: 1;
+@keyframes bg-anim-1 {
+    0% {
+        background-position: 50% 100%;
+    };
+    25% {
+        background-position: 51% 97%;
+    };
+    50% {
+        background-position: 50% 94%;
+    };
+    75% {
+        background-position: 49% 97%;
+    };
+    100% {
+        background-position: 50% 100%;
+    }
+}
+
+@keyframes bg-anim-2 {
+    0% {
+        background-position-x: 50%;
+    };
+    25% {
+        background-position-x: 51%;
+    };
+    50% {
+        background-position-x: 50%;
+    };
+    75% {
+        background-position-x: 49%;
+    };
+    100% {
+        background-position-x: 50%;
+    }
 }

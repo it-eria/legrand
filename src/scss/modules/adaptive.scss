@@ -131,7 +131,7 @@
             }
             img {
                 max-width: 50%;
-                margin-top: -23px;
+                margin-top: -15px;
             }
             .about-block {
                 margin-bottom: 0;
@@ -177,6 +177,13 @@
             font-size: 16px;
             padding: 10px;
         }
+    }
+    .services_no-bg {
+        padding-top: 0;
+        margin: -25px 0 -50px 0;
+        & + .text-block {
+            padding-top: 0;
+        }   
     }
     .artist-title {
         font-size: 18px;
@@ -253,6 +260,9 @@
     .contacts-about .content-1, .mission .content-1, .talent .content-1, .text-block .content-1, .why-choose-us .content-1 {
         font-size: 16px;
         margin-top: 20px;
+    }
+    .services .service-item .bg-container {
+        transform: translate(-35%, 0) scale(0.4);
     }
 }
 
@@ -389,7 +399,7 @@
             }
             img {
                 max-width: 50%;
-                margin-top: -23px;
+                margin-top: -15px;
             }
             .about-block {
                 margin-bottom: 0;
@@ -436,6 +446,13 @@
             font-size: 16px;
             padding: 10px;
         }
+    }
+    .services_no-bg {
+        padding-top: 0;
+        margin: -25px 0 -50px 0;
+        & + .text-block {
+            padding-top: 0;
+        }   
     }
     .artist-title {
         font-size: 18px;
@@ -512,6 +529,9 @@
     .contacts-about .content-1, .mission .content-1, .talent .content-1, .text-block .content-1, .why-choose-us .content-1 {
         font-size: 16px;
         margin-top: 20px;
+    }
+    .services .service-item .bg-container {
+        transform: translate(-35%, 0) scale(0.4);
     }
 }
 
@@ -694,6 +714,9 @@
         .footer-brand {
             min-height: 80px;
         }
+    }
+    .services .service-item .bg-container {
+        transform: translate(-20%, 0) scale(0.7);
     }
 }
 
