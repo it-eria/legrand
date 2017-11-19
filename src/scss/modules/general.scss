@@ -91,8 +91,21 @@ a, * {
     font-weight: 800;
     position: absolute;
     left: 50%;
-    top: -5px;
+    top: 3px;
     opacity: .12;
     white-space: nowrap;
     transform: translate(-50%, 0) scale(1.1);
+}
+
+.text-line {
+    .overflow-container {
+        margin: 0 0 100px 0;
+        padding: 0;
+        p {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            top: 13px;
+        }
+    }
 }
