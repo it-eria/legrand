@@ -12,12 +12,6 @@ $(function() {
         $(this).toggleClass('active');
         $('.main-nav').toggleClass('visible');
     });
-    
-    $('.down-btn').on('click', function(e) {
-        e.preventDefault();
-        var id = $(this).attr('href');
-        $('html, body').animate({ scrollTop: $(id).offset().top }, 500);
-    });
 
     $('.open-popup').on('click', function(e) {
         e.preventDefault();
@@ -91,20 +85,6 @@ $(function() {
                 "height": ""
             });
         }
-    });
-
-    $('.main-menu li a, #services .services-block a').on('click', function(e) {
-        if(!$(this).find('img').length > 0) {
-            e.preventDefault();
-        }
-        var currentId = $(this).attr('href');
-        var offset = 0;
-        if(currentId == "#services") {
-            offset = 300
-        } else if(currentId == "#music" || currentId == "#culinary" || currentId == "#style" || currentId == "#art") {
-            offset = 90;
-        }
-        $('html, body').animate({scrollTop: $(currentId).offset().top - offset}, 1);
     });
 
     $('.artist-item__hover, .services .service-item .link-2').on('click', function(e) {

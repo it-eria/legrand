@@ -97,6 +97,11 @@
         .standart-btn {
             width: 100%;
         }
+        form {
+            div {
+                margin-bottom: 10px;
+            }
+        }
     }
     .reviews {
         padding-top: 20px;
@@ -139,6 +144,7 @@
             }
         }
         .review {
+            top: 10px;
             &:before {
                 font-size: 100px;
                 line-height: 18px;
@@ -229,7 +235,7 @@
     }
     #footer {
         padding-top: 20px;
-        padding-bottom: 20px;
+        
         .inf {
             margin-top: 20px;
             .font-2 {
@@ -265,8 +271,15 @@
     .services .service-item .bg-container {
         transform: translate(-35%, 0) scale(0.4);
     }
-    #team>div>div:nth-child(3)>div:nth-child(4) {
-        background-position-y: 0;
+    // #team>div>div:nth-child(3)>div:nth-child(4) {
+    //     background-position-y: -32px;
+    //     background-size: 118%;
+    // }
+    body > section.reviews > div > div:nth-child(2) > div:nth-child(3) > div.about-block > div:nth-child(1) > img {
+        max-width: 100%;
+    }
+    .popup-wraper .close-popup {
+        right: -10px;
     }
 }
 
@@ -368,6 +381,12 @@
         }
         .standart-btn {
             width: 100%;
+            max-width: 100%;
+        }
+        form {
+            div {
+                margin-bottom: 10px;
+            }
         }
     }
     .reviews {
@@ -411,6 +430,7 @@
             }
         }
         .review {
+            top: 20px;
             &:before {
                 font-size: 100px;
                 line-height: 18px;
@@ -502,7 +522,6 @@
     }
     #footer {
         padding-top: 20px;
-        padding-bottom: 20px;
         .inf {
             margin-top: 20px;
             .font-2 {
@@ -538,8 +557,15 @@
     .services .service-item .bg-container {
         transform: translate(-35%, 0) scale(0.4);
     }
-    #team>div>div:nth-child(3)>div:nth-child(4) {
-        background-position-y: 0;
+    // #team>div>div:nth-child(3)>div:nth-child(4) {
+    //     background-size: 129%;
+    //     background-position-y: -16px;
+    // }
+    body > section.reviews > div > div:nth-child(2) > div:nth-child(3) > div.about-block > div:nth-child(1) > img {
+        max-width: 60%;
+    }
+    .popup-wraper .close-popup {
+        right: -10px;
     }
 }
 
@@ -604,10 +630,17 @@
             position: relative;
         }
         label, input, textarea {
+            display: block;
             font-size: 16px;
+            max-width: 100%
         }
         .standart-btn {
             width: 100%;
+        }
+        form {
+            div {
+                margin-bottom: 10px;
+            }
         }
     }
     .reviews {
@@ -703,7 +736,7 @@
     }
     #footer {
         padding-top: 40px;
-        padding-bottom: 40px;
+        
         .inf {
             margin-top: 20px;
             .font-2 {
@@ -726,8 +759,11 @@
     .services .service-item .bg-container {
         transform: translate(-20%, 0) scale(0.7);
     }
-    #team>div>div:nth-child(3)>div:nth-child(4) {
-        background-position-y: 0;
+    // #team>div>div:nth-child(3)>div:nth-child(4) {
+    //     background-position-y: 0;
+    // }
+    .popup-wraper .close-popup {
+        right: -20px;
     }
 }
 
@@ -777,8 +813,26 @@
             width: calc(100% / 4 - 5px);
         }
     }
-    #team>div>div:nth-child(3)>div:nth-child(4) {
-        background-position-y: 0;
+    // #team>div>div:nth-child(3)>div:nth-child(4) {
+    //     background-position-y: 0;
+    // }
+    .popup {
+        &-wraper {
+            width: 90%;
+            top: 40px;
+            transform: translate(-50%, 0);
+        }
+        input, textarea {
+            position: relative;
+        }
+        label, input, textarea {
+            display: block;
+            font-size: 16px;
+            max-width: 100%
+        }
+        .standart-btn {
+            width: 100%;
+        }
     }
 }
 

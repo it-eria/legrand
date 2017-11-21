@@ -51,10 +51,6 @@ body, html {
     }
 }
 
-#team > div > div:nth-child(3) > div:nth-child(4) {
-    background-position: center -36px;
-}
-
 a, * {
     text-decoration-color: #000000;
 }
@@ -108,4 +104,8 @@ a, * {
             top: 13px;
         }
     }
+}
+
+body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div > p:nth-child(2) {
+    white-space: nowrap;
 }
