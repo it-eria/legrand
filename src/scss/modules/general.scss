@@ -109,3 +109,8 @@ a, * {
 body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div > p:nth-child(2) {
     white-space: nowrap;
 }
+
+#artists > div > div:nth-child(14) > div > div:nth-child(7) > a,
+#artists > div > div:nth-child(14) > div > div:nth-child(8) > a {
+    opacity: 1;
+}

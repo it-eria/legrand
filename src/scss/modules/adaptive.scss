@@ -281,6 +281,9 @@
     .popup-wraper .close-popup {
         right: -10px;
     }
+    body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div:nth-child(1) > img {
+        width: 40%;
+    }
 }
 
 // 321 - 480px
@@ -567,6 +570,9 @@
     .popup-wraper .close-popup {
         right: -10px;
     }
+    body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div:nth-child(1) > img {
+        width: 40%;
+    }
 }
 
 // 481 - 768px
@@ -765,6 +771,9 @@
     .popup-wraper .close-popup {
         right: -20px;
     }
+    .reviews .team-item .avatar-block {
+        margin-bottom: 30px;
+    }
 }
 
 // 769 - 992px
@@ -833,6 +842,9 @@
         .standart-btn {
             width: 100%;
         }
+    }
+    .reviews .team-item .avatar-block {
+        margin-bottom: 30px;
     }
 }
 
