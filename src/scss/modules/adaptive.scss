@@ -284,6 +284,9 @@
     body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div:nth-child(1) > img {
         width: 40%;
     }
+    .popup textarea {
+        height: 28px;
+    }
 }
 
 // 321 - 480px
@@ -573,6 +576,9 @@
     body > section.reviews > div > div:nth-child(2) > div:nth-child(1) > div.about-block > div:nth-child(1) > img {
         width: 40%;
     }
+    .popup textarea {
+        height: 28px;
+    }
 }
 
 // 481 - 768px
@@ -773,6 +779,9 @@
     }
     .reviews .team-item .avatar-block {
         margin-bottom: 30px;
+    }
+    .popup textarea {
+        height: 28px;
     }
 }
 
