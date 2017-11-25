@@ -13,10 +13,6 @@ $(function() {
         $('.main-nav').toggleClass('visible');
     });
 
-    // $('.popup').css({
-    //     'top': $(window).scrollTop()
-    // });
-
     $('.open-popup').on('click', function(e) {
         e.preventDefault();
         $('div.popup').slideToggle(300);
