@@ -287,6 +287,18 @@
     .popup textarea {
         height: 28px;
     }
+    .contacts-mail-section {
+        margin-bottom: 60px;
+        .font-2 {
+            font-size: 23px;
+        }
+    }
+    .title-4 {
+        &.about-title {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+    }
 }
 
 // 321 - 480px
@@ -578,6 +590,18 @@
     }
     .popup textarea {
         height: 28px;
+    }
+    .contacts-mail-section {
+        margin-bottom: 60px;
+        .font-2 {
+            font-size: 23px;
+        }
+    }
+    .title-4 {
+        &.about-title {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
     }
 }
 
