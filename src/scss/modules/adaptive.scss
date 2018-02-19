@@ -816,6 +816,16 @@
             width: 90%;
         }
     }
+    .main-nav {
+        ul {
+            li {
+                margin-right: 25px;
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
     .artists, .artists-team {
         .artist-item {
             width: calc(100% / 5 - 5px);
@@ -901,7 +911,16 @@
             }
         }
     }
-
+    .main-nav {
+        ul {
+            li {
+                margin-right: 25px;
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
 
 // 1201 - 1366px

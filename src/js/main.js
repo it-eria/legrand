@@ -6,7 +6,12 @@
 $(function() {
 
     var headerHeight = $('#header').outerHeight();
-    
+    var hasNumbersEl = false;
+
+    if($('#numbers').length > 0) {
+        hasNumbersEl = true;
+    }
+
     $('.menu-btn').on('click', function(e) {
         e.preventDefault();
         $(this).toggleClass('active');
@@ -35,35 +40,37 @@ $(function() {
         } else {
             $('.main-nav').attr('style', '');
         }
-        if(offset >= $('#numbers').offset().top - 300) {
-            $('#animNumber').animateNumber(
-                {
-                  number: 5100,
-                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
-                },
-                3000
-            );
-            $('#animNumberAbout-1').animateNumber(
-                {
-                  number: 17,
-                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
-                },
-                1000
-            );
-            $('#animNumberAbout-2').animateNumber(
-                {
-                  number: 1632,
-                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
-                },
-                3000
-            );
-            $('#animNumberAbout-3').animateNumber(
-                {
-                  number: 150,
-                  numberStep: $.animateNumber.numberStepFactories.separator(' ')
-                },
-                2000
-            );
+        if(hasNumbersEl) {
+            if(offset >= $('#numbers').offset().top - 300) {
+                $('#animNumber').animateNumber(
+                    {
+                      number: 5100,
+                      numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                    },
+                    3000
+                );
+                $('#animNumberAbout-1').animateNumber(
+                    {
+                      number: 17,
+                      numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                    },
+                    1000
+                );
+                $('#animNumberAbout-2').animateNumber(
+                    {
+                      number: 1632,
+                      numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                    },
+                    3000
+                );
+                $('#animNumberAbout-3').animateNumber(
+                    {
+                      number: 150,
+                      numberStep: $.animateNumber.numberStepFactories.separator(' ')
+                    },
+                    2000
+                );
+            }
         }
         // $('.popup').css({
         //     'top': $(window).scrollTop()

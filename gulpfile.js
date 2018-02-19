@@ -151,7 +151,7 @@ gulp.task('watch', function() {
     // Scripts
     gulp.watch(path.watch.scripts, gulp.series('scripts:build'));
     // Images
-    gulp.watch(path.watch.img, gulp.series('img:build'));
+    // gulp.watch(path.watch.img, gulp.series('img:build'));
     // Fonts
     gulp.watch(path.watch.fonts, gulp.series('fonts:build'));
 });
