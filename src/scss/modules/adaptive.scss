@@ -1,5 +1,10 @@
 // 0 - 320px
 @media screen and (min-width: 0px) and (max-width: 320px) {
+  .grid-title--big .shadow {
+      font-size: 35px;
+      top: 6px;
+      letter-spacing: 18px;
+  }
     #header {
         padding: 0;
         .container {
@@ -303,6 +308,11 @@
 
 // 321 - 480px
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  .grid-title--big .shadow {
+    font-size: 35px;
+    top: 6px;
+    letter-spacing: 18px;
+  }
     #header {
         padding: 0;
         .container {
@@ -607,6 +617,11 @@
 
 // 481 - 768px
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .grid-title--big .shadow {
+    font-size: 30px;
+    top: 8px;
+    letter-spacing: 40px;
+  }
     #header {
         padding: 0;
         .container {
@@ -811,6 +826,11 @@
 
 // 769 - 992px
 @media screen and (min-width: 769px) and (max-width: 992px) {
+  .grid-title--big .shadow {
+    font-size: 50px;
+    top: -10px;
+    letter-spacing: 40px;
+  }
     #header {
         .container {
             width: 90%;
